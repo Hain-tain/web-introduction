@@ -1,0 +1,128 @@
+html {
+  font-family: "GmarketSans";
+  font-size: 62.5%;
+  /* 10px === 1rem */
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-green-1: #d7e4c0;
+  --color-green-2: #c6dcba;
+  --color-green-3: #bbc3a4;
+  --color-brown-1: #b3a398;
+  --color-brown-2: #5e554e;
+}
+
+body {
+  background-color: var(--color-green-1);
+}
+
+header {
+  font-size: 5rem;
+  color: var(--color-green-1);
+  text-align: center;
+  background-color: var(--color-white);
+  border-bottom: solid var(--color-green-3) 0.3rem;
+  padding: 1rem 0rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-white);
+  text-align: center;
+  background-color: var(--color-green-1);
+  border-top: solid var(--color-green-3) 0.3rem;
+  padding: 1rem 0rem;
+  margin-top: 2rem;
+}
+
+main {
+  width: 60rem;
+  margin: auto;
+  background-color: var(--color-white);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 1.4rem;
+}
+
+#introduce-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#introduce-box > p {
+  font-size: 1.4rem;
+}
+
+.tag {
+  background-color: var(--color-green-2);
+  color: var(--color-white);
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  border: solid (var(--color-brown-1)) 0.2em;
+}
+
+.movie-container-top {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.movie-container-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 15rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li > h3 {
+  font-size: 2rem;
+}
+
+li > div > p {
+  font-size: 1.4rem;
+}
+
+input {
+  border: solid var(--color-brown-1) 0.2rem;
+  border-radius: 0.8rem;
+  padding-left: 0.2rem;
+  height: 2rem;
+}
+
+button {
+  border: none;
+  border-radius: 0.4rem;
+  background-color: var(--color-brown-1);
+  color: var(--color-white);
+  padding: 0.6rem 0.8rem;
+}
+
+.text-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.4rem 0;
+}
+
+.text-subTitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
